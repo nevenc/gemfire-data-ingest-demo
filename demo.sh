@@ -12,7 +12,7 @@ set -eo pipefail  # Exit on error, pipe failures (unbound vars disabled for SDKM
 # =============================================================================
 
 DEMO_START=$(date +%s)
-JAVA25_VERSION="25-librca"
+JAVA25_VERSION="25.0.1-librca"
 
 # Metrics URLs for performance comparison
 METRICS_URLS=(
